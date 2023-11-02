@@ -1,0 +1,91 @@
+.advice2 {
+  display: flex;
+  margin-left: 195px;
+  gap: 30px;
+  margin-top: 65px;
+}
+.adv-card {
+  background-color: #fff;
+}
+.adv-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px 2px rgba(0, 255, 255, 0.7);
+  transition: 0.4s;
+}
+.adv-card h5 {
+  margin: 30px 30px 0 30px;
+}
+.adv-card p {
+  margin: 15px 30px 30px 30px;
+}
+.advice h2,
+p {
+  text-align: center;
+}
+.advice-card h2 {
+  color: var(--text-color, #252b42);
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px; /* 142.5% */
+  letter-spacing: 0.2px;
+}
+.advice-card p {
+  color: var(--second-text-color, #737373);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  width: 470px;
+  margin-left: 460px;
+  padding-top: 10px;
+}
+.advice-card {
+  margin-top: 205px;
+}
+.advice2 h5 {
+  color: var(--text-color, #252b42);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  width: 130px;
+}
+.advice2 p {
+  color: var(--second-text-color, #737373);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  width: 180px;
+}
+.advice {
+  padding-bottom: 100px;
+}
+@media only screen and (max-width: 420px){
+ .advice p{
+  width: 200px;
+  /* margin-left: -200px; */
+  margin-left: -100px;
+
+ }
+ body{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box
+}
+.advice{
+  align-items: center;
+}
+ 
+  .advice2{
+  flex-direction: column;
+ }
+ .advice2 img{
+  width: 188px;
+ }
+}

@@ -1,0 +1,104 @@
+.serv {
+  background-color: #fff;
+}
+.service {
+  display: flex;
+  padding-top: 100px;
+  margin-left: 195px;
+  /* position: absolute; */
+  padding-bottom: 150px;
+}
+.servic h2 {
+  color: var(--text-color, #252b42);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  padding-top: 100px;
+}
+.servic p {
+  color: var(--second-text-color, #737373);
+  margin-left: 425px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  width: 511px;
+  padding-top: 15px;
+}
+.play {
+  position: relative;
+  right: 350px;
+  bottom: 150px;
+}
+.service-right {
+  margin-left: 50px;
+}
+.service-right h2 {
+  color: var(--text-color, #252b42);
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  width: 333px;
+}
+.service-right p {
+  color: var(--second-text-color, #737373);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  width: 330px;
+  padding-top: 10px;
+}
+.ser-right-per {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.ser-right-per img {
+  padding-top: 15px;
+}
+.service-right h5 {
+  color: var(--text-color, #252b42);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  width: 277px;
+  padding-top: 50px;
+}
+.service-right h6 {
+  color: var(--second-text-color, #737373);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+.ser-right-speed {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.ser-right-speed img {
+  padding-top: 10px;
+}
+@media only screen and(max-width:420px) {
+  .servic{
+    display: block ;
+  }
+  .servic p{
+    width: 200px;
+  }
+  .service {
+    /* display: flex; */
+    flex-direction: column;
+  }}

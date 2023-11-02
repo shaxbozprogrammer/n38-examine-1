@@ -1,0 +1,73 @@
+.emiles {
+  background: #fafafa;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  margin-left: 195px;
+  padding-top: 100px;
+}
+.name {
+  display: flex;
+  width: 1050px;
+  height: 50px;
+  padding: 12px 20px;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid var(--Gray-5, #e0e0e0);
+}
+.contact-cards button:hover {
+  background-color: aqua;
+  color: black;
+}
+.comment {
+  display: flex;
+  width: 1050px;
+  height: 156px;
+  padding: 12px 20px;
+  align-items: flex-start;
+  gap: 10px;
+  border: 1px solid var(--Gray-5, #e0e0e0);
+}
+input {
+  margin-top: 20px;
+  font-family: Montserrat;
+}
+.select {
+  display: flex;
+  width: 1050px;
+  height: 50px;
+  padding: 12px 20px;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid var(--Gray-5, #e0e0e0);
+  margin-top: 20px;
+  font-family: Montserrat;
+}
+.emiles button {
+  display: inline-flex;
+  padding: 15px 40px;
+  justify-content: flex-end;
+  align-items: center;
+  border-radius: 5px;
+  background: var(--primary-color, #ffa62b);
+  color: var(--light-text-color, #fff);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  border: none;
+  margin: 60px 0 100px 400px;
+}
+.emiles button:hover {
+  background-color: aqua;
+  color: black;
+  transition: 0.3s;
+}
+@media only screen and(max-width:420px){
+  .inputs input{
+  width: 400px;
+  }
+}
